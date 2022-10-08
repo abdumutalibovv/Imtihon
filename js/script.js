@@ -47,7 +47,6 @@ console.log(remove(arr));
 let name = "sam harris"
 function qisqaIsm(name) {
     let ismArr = name.split(" ");
-    return (ismArr[0][0] + "." + ismArr[1][0]).toUpperCase();
+    return (ismArr[0] + " " + ismArr[1][0]).toUpperCase();
 }
-
 console.log();
